@@ -6,8 +6,8 @@ Output: data/processed/*.csv — sẵn sàng để load vào PostgreSQL (Phase 7
 import pandas as pd
 import numpy as np
 
-CLEAN = "/data/cleaned/"
-PROC = "/data/processed/"
+CLEAN = "data/cleaned/"
+PROC = "data/processed/"
 
 customers = pd.read_csv(CLEAN + "customers_cleaned.csv", dtype={"customer_zip_code_prefix": str})
 orders = pd.read_csv(CLEAN + "orders_cleaned.csv", parse_dates=[
