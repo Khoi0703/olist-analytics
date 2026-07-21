@@ -134,7 +134,7 @@ order_reviews.to_csv(CLEAN + "order_reviews_cleaned.csv", index=False)
 products.to_csv(CLEAN + "products_cleaned.csv", index=False)
 sellers.to_csv(CLEAN + "sellers_cleaned.csv", index=False)
 
-with open("reports/Cleaning_Log.md", "w") as f:
+with open("reports/Cleaning_Log.md", "w", encoding="utf-8") as f:
     f.write("# Phase 4 — Data Cleaning Log\n\n")
     f.write("\n".join(f"- {line}" for line in log))
 
