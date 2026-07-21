@@ -5,7 +5,7 @@ trước khi làm sạch dữ liệu.
 """
 import pandas as pd
 
-RAW = "/data/raw/"
+RAW = "data/raw/"
 
 files = {
     "customers": "olist_customers_dataset.csv",
@@ -97,7 +97,7 @@ report_lines.append(f"\n**Delivery days — min: {delivery_days.min()}, max: {de
 negative_delivery = (delivery_days < 0).sum()
 report_lines.append(f"**Số đơn có delivery_days âm (bất thường): {negative_delivery:,}**")
 
-with open("/home/claude/olist-analytics/reports/Profiling_Report.md", "w") as f:
+with open("reports/Profiling_Report.md", "w", encoding="utf-8") as f:
     f.write("\n".join(report_lines))
 
 print("Đã xuất Profiling_Report.md")
