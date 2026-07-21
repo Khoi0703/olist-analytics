@@ -1,5 +1,5 @@
 -- ============================================================
--- Phase 8b — INTERMEDIATE QUERIES
+-- INTERMEDIATE QUERIES
 -- CASE, CTE, Subquery, UNION, Temporary Tables
 -- ============================================================
 

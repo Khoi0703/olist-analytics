@@ -1,5 +1,5 @@
 -- ============================================================
--- Phase 8c — ADVANCED QUERIES (Window Functions)
+-- ADVANCED QUERIES (Window Functions)
 -- ROW_NUMBER, RANK, DENSE_RANK, LEAD, LAG, FIRST_VALUE,
 -- Rolling Average, Moving Sum, Percentile, NTILE
 -- ============================================================

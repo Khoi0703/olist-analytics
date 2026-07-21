@@ -1,5 +1,5 @@
 -- ============================================================
--- Phase 8d — BUSINESS ANALYSIS QUERIES
+-- BUSINESS ANALYSIS QUERIES
 -- RFM Segmentation, Cohort Analysis, Retention, Deep-dive nghiệp vụ
 -- ============================================================
 

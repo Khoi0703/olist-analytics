@@ -1,5 +1,5 @@
 -- ============================================================
--- Phase 8a — BASIC QUERIES
+-- BASIC QUERIES
 -- SELECT, WHERE, GROUP BY, HAVING, JOIN, ORDER BY, LIMIT
 -- ============================================================
 
