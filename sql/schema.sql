@@ -1,6 +1,6 @@
 -- ============================================================
 -- Olist E-commerce Analytics — Database Schema (PostgreSQL)
--- Phase 6 - Database Design
+--- Database Design
 -- ============================================================
 
 DROP TABLE IF EXISTS order_reviews CASCADE;

@@ -1,5 +1,5 @@
 """
-Phase 3 - Data Profiling
+Data Profiling
 Kiểm tra missing values, duplicates, invalid values, cardinality
 trước khi làm sạch dữ liệu.
 """
