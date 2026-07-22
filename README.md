@@ -106,9 +106,6 @@ psql -U postgres -d olist_db -f sql/basic_queries.sql
 # 5. Mở EDA notebook
 jupyter notebook notebooks/eda.ipynb
 
-
-*(Chi tiết đầy đủ 8 insight + 7 khuyến nghị hành động: xem `reports/Business_Insights.pdf`)*
-
 ## 📊 Dashboard
 
 5 trang dashboard được thiết kế: **Executive · Sales · Customer · Operations · Geographic**
