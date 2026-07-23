@@ -108,8 +108,41 @@ jupyter notebook notebooks/eda.ipynb
 
 ## 📊 Dashboard
 
-5 trang dashboard được thiết kế: **Executive · Sales · Customer · Operations · Geographic**
-- File `.pbix` chính thức: `dashboard/dashboard.pbix`
+# 5. Mở EDA notebook
+jupyter notebook notebooks/eda.ipynb
+```
+
+---
+
+## 📊 Dashboard
+
+Power BI dashboard gồm **5 interactive pages**, tập trung vào các khía cạnh quan trọng của hoạt động kinh doanh:
+
+- 📈 Executive Overview
+- 💰 Sales Performance
+- 👥 Customer Overview
+- 🚚 Operations Dashboard
+- 🌎 Geographic Analysis
+
+**Power BI file:** `dashboard/dashboard.pbix`
+
+### Dashboard Preview
+
+| Executive Dashboard | Sales Dashboard |
+|:-------------------:|:---------------:|
+| ![](dashboard/images/executive-dashboard.png) | ![](dashboard/images/sales-dashboard.png) |
+
+| Customer Dashboard | Operations Dashboard |
+|:------------------:|:--------------------:|
+| ![](dashboard/images/customer-dashboard.png) | ![](dashboard/images/operations-dashboard.png) |
+
+### Geographic Dashboard
+
+<p align="center">
+  <img src="dashboard/images/geographic-dashboard.png" width="90%">
+</p>
+
+---
 
 ## 👤 Tác giả
 
